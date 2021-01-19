@@ -206,7 +206,7 @@ hr{
 }
 
 .works-link::after {
-    content: url(images/icon-arrow.svg);
+    content: url("images/icon-arrow.svg");
     padding-left: 9.6rem;
     position: absolute;
     top: 0.0714285714em;
@@ -237,7 +237,7 @@ hr:hover{
 .box{
     width: 100%;
     max-width: 22.3125rem;
-    height: 11rem;
+    height: 12rem;
     position: relative;
     background: var(--Dark-Blue-test);
     border-radius: 0.3125rem;
