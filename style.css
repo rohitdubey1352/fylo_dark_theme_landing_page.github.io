@@ -503,3 +503,60 @@ hr:hover{
         right: 10rem;
     }
 }
+@media(max-width: 411px){
+    .newslatter-box{
+        max-width: 300px;
+    }
+    .newslatter-content h1{
+        font-size: 1.2rem;
+    }
+    .newslatter-content p{
+        font-size: .6rem;
+        width: 100%;
+        line-height: 1rem;
+    }
+    .form-body{
+        margin-top: -3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .form-body .form-input{
+        width: 15rem;
+        margin: .8rem 1rem;
+        align-items: center;
+    }
+    .form-body  .btn{
+        height: 2.5rem;
+        margin-top: -0.2rem;
+    }
+    .footer .col{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        text-align: left;
+    }
+    
+    .box{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 0.3125rem;
+        margin: 1rem .5rem;
+        padding: 0 -3rem;
+    }
+    .info{
+        padding: 1rem 0 1rem 0;
+        left: -3rem;
+    }
+    .aboutsectn{
+        padding: 1rem 0 1rem 0;
+        right: 10rem;
+    }
+    .Contact{
+        padding: 1rem 0 1rem 0;
+        right: 10rem;
+    }
+}
